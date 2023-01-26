@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta  name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Ressursarkiv</title>
+    <meta name="description" content="Ressursarkiv">
+    <meta name="keywords" content="Ressurser, Arkiv, Ressursarkiv, Kategorier, 1, 2, 3">
+    <meta name="author" content="Mohammed al Zurkany">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> <h1>RESSURSARKIV</h1> </header>
+    <!-- Fanemeny: kilde; https://www.w3schools.com/howto/howto_js_tabs.asp -->
+    <main>
+    <div class="tab">
+        <button id="tablink1" class="tablinks" onclick="openTab(event, 'Kategori1')">Kategori 1</button>
+        <button id="tablink2" class="tablinks" onclick="openTab(event, 'Kategori2')">Kategori 2</button>
+        <button id="tablink3" class="tablinks" onclick="openTab(event, 'Kategori3')">Kategori 3</button>
+    </div>
+    <div id="Kategori1" class="tabcontent">
+        <h2 id="title1">Kategori 1</h2>
+        <p id="text1">At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+        <ul id="source1">
+            <li><a href="#" id="source1A"></a></li>
+        </ul>
+    </div>
+    <div id="Kategori2" class="tabcontent">
+        <h2 id="title2">Kategori 2</h2>
+        <p id="text2">At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+        <ul id="sources2"></ul>
+    </div>
+    <div id="Kategori3" class="tabcontent">
+        <h2 id="title3">Kategori 3</h2>
+        <p id="text3">At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+        <li>
+            <ul id="source3A"><a href="#" id="source3A">Plus hic legere</a> </ul>
+            <ul><a href="#" id="source3B">Plus hic legere</a> </ul>
+            <ul><a href="#" id="source3C">Plus hic legere</a> </ul> 
+        </li>
+    </div>
+    </main>
+    <footer>
+        <script src="ressurser.js"></script>
+    </footer>
+</body>
+</html>
